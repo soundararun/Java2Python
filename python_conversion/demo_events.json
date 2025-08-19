@@ -1,0 +1,92 @@
+[
+  {
+    "machine_name": "centos1",
+    "timestamp": "2025-08-19T15:29:04Z",
+    "tool_name": "Solarwinds",
+    "group_name": "MC",
+    "resource_type": "cpu",
+    "cpu_time_idle": 5.0,
+    "alert_message": "CPU monitoring event 1"
+  },
+  {
+    "machine_name": "centos1",
+    "timestamp": "2025-08-19T15:34:04Z",
+    "tool_name": "Solarwinds",
+    "group_name": "MC",
+    "resource_type": "cpu",
+    "cpu_time_idle": 5.0,
+    "alert_message": "CPU monitoring event 2"
+  },
+  {
+    "machine_name": "centos1",
+    "timestamp": "2025-08-19T15:39:04Z",
+    "tool_name": "Solarwinds",
+    "group_name": "MC",
+    "resource_type": "cpu",
+    "cpu_time_idle": 5.0,
+    "alert_message": "CPU monitoring event 3"
+  },
+  {
+    "machine_name": "centos1",
+    "timestamp": "2025-08-19T15:44:04Z",
+    "tool_name": "Solarwinds",
+    "group_name": "MC",
+    "resource_type": "cpu",
+    "cpu_time_idle": 5.0,
+    "alert_message": "CPU monitoring event 4"
+  },
+  {
+    "machine_name": "centos1",
+    "timestamp": "2025-08-19T15:49:04Z",
+    "tool_name": "Solarwinds",
+    "group_name": "MC",
+    "resource_type": "cpu",
+    "cpu_time_idle": 5.0,
+    "alert_message": "CPU monitoring event 5"
+  },
+  {
+    "machine_name": "centos1",
+    "timestamp": "2025-08-19T15:54:04Z",
+    "tool_name": "Solarwinds",
+    "group_name": "MC",
+    "resource_type": "cpu",
+    "cpu_time_idle": 50.0,
+    "alert_message": "CPU monitoring event 6"
+  },
+  {
+    "machine_name": "centos1",
+    "timestamp": "2025-08-19T15:59:04Z",
+    "tool_name": "Solarwinds",
+    "group_name": "MC",
+    "resource_type": "cpu",
+    "cpu_time_idle": 50.0,
+    "alert_message": "CPU monitoring event 7"
+  },
+  {
+    "machine_name": "centos1",
+    "timestamp": "2025-08-19T16:04:04Z",
+    "tool_name": "Solarwinds",
+    "group_name": "MC",
+    "resource_type": "cpu",
+    "cpu_time_idle": 50.0,
+    "alert_message": "CPU monitoring event 8"
+  },
+  {
+    "machine_name": "centos1",
+    "timestamp": "2025-08-19T16:09:04Z",
+    "tool_name": "Solarwinds",
+    "group_name": "MC",
+    "resource_type": "cpu",
+    "cpu_time_idle": 50.0,
+    "alert_message": "CPU monitoring event 9"
+  },
+  {
+    "machine_name": "centos1",
+    "timestamp": "2025-08-19T16:14:04Z",
+    "tool_name": "Solarwinds",
+    "group_name": "MC",
+    "resource_type": "cpu",
+    "cpu_time_idle": 50.0,
+    "alert_message": "CPU monitoring event 10"
+  }
+]

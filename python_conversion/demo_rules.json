@@ -1,0 +1,22 @@
+[
+  {
+    "id": "R001",
+    "name": "High CPU Usage",
+    "description": "CPU utilization exceeds threshold",
+    "message": "High CPU utilization detected",
+    "tool_name": "Solarwinds",
+    "group_name": [
+      "MC",
+      "Production"
+    ],
+    "device_name": [
+      "centos1",
+      "centos2"
+    ],
+    "expression": "cpu_time_idle < 10",
+    "resource_type": "cpu",
+    "priority": "HIGH",
+    "consecutive_limit": 3,
+    "status": "ACTIVE"
+  }
+]

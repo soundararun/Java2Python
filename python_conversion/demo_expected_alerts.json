@@ -1,0 +1,26 @@
+[
+  {
+    "alert_type": "POSITIVE",
+    "machine_id": "centos1",
+    "timestamp": "2025-08-19T15:39:04Z",
+    "description": "CPU utilization exceeds threshold"
+  },
+  {
+    "alert_type": "POSITIVE",
+    "machine_id": "centos1",
+    "timestamp": "2025-08-19T15:44:04Z",
+    "description": "CPU utilization exceeds threshold"
+  },
+  {
+    "alert_type": "POSITIVE",
+    "machine_id": "centos1",
+    "timestamp": "2025-08-19T15:49:04Z",
+    "description": "CPU utilization exceeds threshold"
+  },
+  {
+    "alert_type": "REVERSE",
+    "machine_id": "centos1",
+    "timestamp": "2025-08-19T15:54:04Z",
+    "description": "CPU utilization back to normal"
+  }
+]
