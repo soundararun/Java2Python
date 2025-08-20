@@ -1,0 +1,37 @@
+FROM ubuntu:18.04
+
+RUN mkdir /opt/zif
+
+COPY event-processor-state-1.0.jar /opt/zif
+
+COPY flink-1.12.1-bin-scala_2.11.tgz /opt/zif
+
+COPY flinkInstall.sh /opt/zif
+
+COPY flinkSubmit.sh /opt/zif
+
+RUN chmod 777 /opt/zif/flink-1.12.1-bin-scala_2.11.tgz
+RUN chmod +x /opt/zif/flinkInstall.sh
+
+RUN chmod +x /opt/zif/flinkSubmit.sh
+
+# Install OpenJDK-11
+RUN apt-get update && \
+    apt-get install -y openjdk-11-jdk && \
+    apt-get install -y ant && \
+    apt-get clean;
+
+# Fix certificate issues
+RUN apt-get update && \
+    apt-get install ca-certificates-java && \
+    apt-get clean && \
+    update-ca-certificates -f;
+
+# Setup JAVA_HOME -- useful for docker commandline
+ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64/
+RUN export JAVA_HOME
+
+EXPOSE 7123 8084
+
+ENTRYPOINT ["/opt/zif/flinkInstall.sh"]
+

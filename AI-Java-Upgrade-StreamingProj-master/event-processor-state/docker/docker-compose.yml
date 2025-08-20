@@ -1,0 +1,19 @@
+version: '3.9'
+services:
+  event-streaming:
+    image: zif4almnew.azurecr.io/zif-eventprocessor-qa:latest
+    container_name: ZIF-EVENT-PROCESSOR
+    environment:
+      - KAFKA_HOST=10.1.0.7
+      - KAFKA_PORT=9092
+      - FLINK_JOB_MANAGER_SIZE=1g
+      - FLINK_TASK_MANAGER_SIZE=1g
+    ports:
+      - "8084:8081"
+    expose:
+      - "8084"
+    volumes:
+      - state-volume:/opt/flink/data
+volumes:
+  state-volume:
+    external: true
